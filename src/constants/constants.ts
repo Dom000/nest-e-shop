@@ -1,0 +1,11 @@
+export const variant = process.env.OPT_VARIANT;
+export const service = process.env.SERVICE;
+export const authmail = process.env.MAIL;
+export const authpass = process.env.EPASSWORD;
+export const host = process.env.HOST;
+export const jwt_secret = process.env.JWT_SECRET;
+export const refresh_secret = process.env.REFRESH_SECRET;
+export const CLOUDINARY = 'Cloudinary';
+export const CloudName = process.env.CLOUD_NAME;
+export const ApiKey = process.env.CLOUD_KEY;
+export const ApiSecret = process.env.CLOUD_KEY_SECRET;

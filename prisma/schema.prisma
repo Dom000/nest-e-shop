@@ -1,0 +1,123 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("MONGODB_URL")
+}
+
+//user roles
+enum UserType {
+  ADMIN
+  USER
+}
+
+//user schema
+model User {
+  id         String     @id @default(auto()) @map("_id") @db.ObjectId
+  name       String
+  username   String     @unique
+  email      String     @unique
+  password   String
+  profilePic UserImage?
+  role       UserType   @default(USER)
+  verified   Boolean    @default(false)
+  created_at DateTime   @default(now())
+  updated_at DateTime   @updatedAt
+  Product    Product[]
+  Reviews    Review[]
+
+  @@map("users")
+}
+
+model UserImage {
+  id        String @id @default(auto()) @map("_id") @db.ObjectId
+  public_id String @unique
+  url       String @default("")
+  userId    String @unique @db.ObjectId // relation scalar field (used in the `@relation` attribute above)
+  User      User?  @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("userImages")
+}
+
+//otp Schema
+model Otp {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  username   String   @unique
+  otp        String
+  created_at DateTime @default(now())
+
+  @@map("otps")
+}
+
+//reset password schema
+model ResetPassword {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  userId     String   @unique
+  resettoken String
+  created_at DateTime @default(now())
+
+  @@map("resetPasswords")
+}
+
+// Product model schemas starts here
+
+//product schema
+model Product {
+  id               String         @id @default(auto()) @map("_id") @db.ObjectId
+  name             String
+  slug             String         @unique
+  shortDescription String
+  longDescription  String
+  productImages    ProductImage[]
+  price            Float
+  actualPrice      Float
+  discountPrice    Float          @default(0)
+  quantity         Int            @default(1)
+  category         String
+  reviews          Review[]
+  rating           Int            @default(0)
+  ratings          Float          @default(0)
+  promoted         Boolean        @default(false)
+  featured         Boolean        @default(false)
+  creator_username String         @unique
+  creator          User           @relation(fields: [creator_username], references: [username], onDelete: Cascade)
+  created_at       DateTime       @default(now())
+  updated_at       DateTime       @updatedAt
+
+  @@map("products")
+}
+
+//product image schema
+model ProductImage {
+  id             String   @id @default(auto()) @map("_id") @db.ObjectId
+  productId      String   @db.ObjectId
+  public_id      String   @default("")
+  url            String   @default("")
+  owner_username String   @unique
+  created_at     DateTime @default(now())
+  updated_at     DateTime @updatedAt
+  Product        Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@map("productImages")
+}
+
+//review schema
+model Review {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  productId  String   @db.ObjectId
+  username   String   @unique
+  userId     String   @db.ObjectId
+  review     String   @default("")
+  rate       Int      @default(0)
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  Product    Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  User       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("reviews")
+}

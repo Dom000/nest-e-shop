@@ -1,0 +1,357 @@
+{
+  "success": true,
+  "products": [
+    {
+      "id": "63b5bda31dcbb56b7fbfa5be",
+      "name": "Product 1",
+      "slug": "product-1",
+      "shortDescription": "this is the short description of product 1",
+      "longDescription": "this is the long description of product 1",
+      "price": 278.69,
+      "actualPrice": 285.69,
+      "discountPrice": 7,
+      "quantity": 10,
+      "category": "category1",
+      "rating": 1,
+      "ratings": 1.666666666666667,
+      "promoted": false,
+      "featured": false,
+      "creator_username": "miles",
+      "created_at": "2023-01-04T17:55:47.424Z",
+      "updated_at": "2023-01-04T20:49:36.085Z",
+      "productImages": [
+        {
+          "public_id": "eshop-productImages/xmuxpbjubqffhadjktrx",
+          "url": "https://res.cloudinary.com/dngmkhxvz/image/upload/v1672854949/eshop-productImages/xmuxpbjubqffhadjktrx.jpg",
+          "productId": "63b5bda31dcbb56b7fbfa5be"
+        },
+        {
+          "public_id": "eshop-productImages/i6mdr6yxjuna7eols3ri",
+          "url": "https://res.cloudinary.com/dngmkhxvz/image/upload/v1672854951/eshop-productImages/i6mdr6yxjuna7eols3ri.jpg",
+          "productId": "63b5bda31dcbb56b7fbfa5be"
+        },
+        {
+          "public_id": "eshop-productImages/pobvvntnfnzqqtqnsays",
+          "url": "https://res.cloudinary.com/dngmkhxvz/image/upload/v1672854953/eshop-productImages/pobvvntnfnzqqtqnsays.jpg",
+          "productId": "63b5bda31dcbb56b7fbfa5be"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "63b5c117ccf1303ef4a32bcf",
+          "productId": "63b5bda31dcbb56b7fbfa5be",
+          "username": "miles3",
+          "review": "review from miles3",
+          "rate": 1
+        },
+        {
+          "id": "63b5e2206172c54b15258d86",
+          "productId": "63b5bda31dcbb56b7fbfa5be",
+          "username": "miles5",
+          "review": "review from miles5",
+          "rate": 1
+        },
+        {
+          "id": "63b5e65f41bddf2a5978b30b",
+          "productId": "63b5bda31dcbb56b7fbfa5be",
+          "username": "miles4",
+          "review": "review from miles4",
+          "rate": 3
+        }
+      ]
+    },
+    {
+      "id": "63b5bde41dcbb56b7fbfa5c2",
+      "name": "Product 2",
+      "slug": "product-2",
+      "shortDescription": "this is the short description of product 2",
+      "longDescription": "this is the long description of product 3",
+      "price": 165.29,
+      "actualPrice": 185.69,
+      "discountPrice": 20.4,
+      "quantity": 15,
+      "category": "category2",
+      "rating": 3,
+      "ratings": 3.25,
+      "promoted": false,
+      "featured": false,
+      "creator_username": "miles",
+      "created_at": "2023-01-04T17:56:52.344Z",
+      "updated_at": "2023-01-04T21:29:08.322Z",
+      "productImages": [
+        {
+          "public_id": "eshop-productImages/yemvrowmdcloku7xfpvf",
+          "url": "https://res.cloudinary.com/dngmkhxvz/image/upload/v1672855013/eshop-productImages/yemvrowmdcloku7xfpvf.jpg",
+          "productId": "63b5bde41dcbb56b7fbfa5c2"
+        },
+        {
+          "public_id": "eshop-productImages/puzxu8lgn6nrzeaglggo",
+          "url": "https://res.cloudinary.com/dngmkhxvz/image/upload/v1672855015/eshop-productImages/puzxu8lgn6nrzeaglggo.jpg",
+          "productId": "63b5bde41dcbb56b7fbfa5c2"
+        },
+        {
+          "public_id": "eshop-productImages/spyz1wdiqzpxzdjqpbmn",
+          "url": "https://res.cloudinary.com/dngmkhxvz/image/upload/v1672855017/eshop-productImages/spyz1wdiqzpxzdjqpbmn.jpg",
+          "productId": "63b5bde41dcbb56b7fbfa5c2"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "63b5c133ccf1303ef4a32bd0",
+          "productId": "63b5bde41dcbb56b7fbfa5c2",
+          "username": "miles3",
+          "review": "review from miles3",
+          "rate": 2
+        },
+        {
+          "id": "63b5e2316172c54b15258d87",
+          "productId": "63b5bde41dcbb56b7fbfa5c2",
+          "username": "miles5",
+          "review": "review from miles5",
+          "rate": 2
+        },
+        {
+          "id": "63b5e67241bddf2a5978b30c",
+          "productId": "63b5bde41dcbb56b7fbfa5c2",
+          "username": "miles4",
+          "review": "review from miles4",
+          "rate": 4
+        },
+        {
+          "id": "63b5efa25103b3bab12d7e15",
+          "productId": "63b5bde41dcbb56b7fbfa5c2",
+          "username": "miles2",
+          "review": " thank you miles 4",
+          "rate": 5
+        }
+      ]
+    },
+    {
+      "id": "63b5be3c1dcbb56b7fbfa5c6",
+      "name": "Product 3",
+      "slug": "product-3",
+      "shortDescription": "this is the short description of product 3",
+      "longDescription": "this is the long description of product 3 again",
+      "price": 375.2,
+      "actualPrice": 398.6,
+      "discountPrice": 23.4,
+      "quantity": 7,
+      "category": "category3",
+      "rating": 2,
+      "ratings": 2.666666666666667,
+      "promoted": false,
+      "featured": false,
+      "creator_username": "miles",
+      "created_at": "2023-01-04T17:58:20.816Z",
+      "updated_at": "2023-01-04T20:50:17.815Z",
+      "productImages": [
+        {
+          "public_id": "eshop-productImages/gkdpszgy0n1iuk6mc0gp",
+          "url": "https://res.cloudinary.com/dngmkhxvz/image/upload/v1672855102/eshop-productImages/gkdpszgy0n1iuk6mc0gp.jpg",
+          "productId": "63b5be3c1dcbb56b7fbfa5c6"
+        },
+        {
+          "public_id": "eshop-productImages/mfgeypjn1wwjoxk3yfye",
+          "url": "https://res.cloudinary.com/dngmkhxvz/image/upload/v1672855104/eshop-productImages/mfgeypjn1wwjoxk3yfye.jpg",
+          "productId": "63b5be3c1dcbb56b7fbfa5c6"
+        },
+        {
+          "public_id": "eshop-productImages/mbgbhhlb4j7a1apilrs2",
+          "url": "https://res.cloudinary.com/dngmkhxvz/image/upload/v1672855106/eshop-productImages/mbgbhhlb4j7a1apilrs2.jpg",
+          "productId": "63b5be3c1dcbb56b7fbfa5c6"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "63b5c145ccf1303ef4a32bd1",
+          "productId": "63b5be3c1dcbb56b7fbfa5c6",
+          "username": "miles3",
+          "review": "review from miles3",
+          "rate": 3
+        },
+        {
+          "id": "63b5e23e6172c54b15258d88",
+          "productId": "63b5be3c1dcbb56b7fbfa5c6",
+          "username": "miles5",
+          "review": "review from miles5",
+          "rate": 3
+        },
+        {
+          "id": "63b5e68941bddf2a5978b30d",
+          "productId": "63b5be3c1dcbb56b7fbfa5c6",
+          "username": "miles4",
+          "review": "review from miles4",
+          "rate": 2
+        }
+      ]
+    },
+    {
+      "id": "63b5bed91dcbb56b7fbfa5ca",
+      "name": "Product 4",
+      "slug": "product-4",
+      "shortDescription": "this is the short description of product 4",
+      "longDescription": "this is the long description of product 4",
+      "price": 434.61,
+      "actualPrice": 458.6,
+      "discountPrice": 23.99,
+      "quantity": 3,
+      "category": "category4",
+      "rating": 4,
+      "ratings": 4,
+      "promoted": false,
+      "featured": false,
+      "creator_username": "miles2",
+      "created_at": "2023-01-04T18:00:57.794Z",
+      "updated_at": "2023-01-04T21:00:57.046Z",
+      "productImages": [
+        {
+          "public_id": "eshop-productImages/a5nvd2rlbvzfw3vqsgpt",
+          "url": "https://res.cloudinary.com/dngmkhxvz/image/upload/v1672855259/eshop-productImages/a5nvd2rlbvzfw3vqsgpt.jpg",
+          "productId": "63b5bed91dcbb56b7fbfa5ca"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "63b5c154ccf1303ef4a32bd2",
+          "productId": "63b5bed91dcbb56b7fbfa5ca",
+          "username": "miles3",
+          "review": "review from miles3",
+          "rate": 4
+        },
+        {
+          "id": "63b5e24c6172c54b15258d89",
+          "productId": "63b5bed91dcbb56b7fbfa5ca",
+          "username": "miles5",
+          "review": "review from miles5",
+          "rate": 4
+        },
+        {
+          "id": "63b5e69841bddf2a5978b30e",
+          "productId": "63b5bed91dcbb56b7fbfa5ca",
+          "username": "miles4",
+          "review": "review from miles4",
+          "rate": 5
+        },
+        {
+          "id": "63b5e90841bddf2a5978b311",
+          "productId": "63b5bed91dcbb56b7fbfa5ca",
+          "username": "miles4",
+          "review": " thank you miles 4",
+          "rate": 3
+        }
+      ]
+    },
+    {
+      "id": "63b5bf261dcbb56b7fbfa5cc",
+      "name": "Product 5",
+      "slug": "product-5",
+      "shortDescription": "this is the short description of product 5",
+      "longDescription": "this is the long description of product 5",
+      "price": 314.61,
+      "actualPrice": 558.6,
+      "discountPrice": 243.99,
+      "quantity": 3,
+      "category": "category5",
+      "rating": 3,
+      "ratings": 3.666666666666667,
+      "promoted": false,
+      "featured": false,
+      "creator_username": "miles2",
+      "created_at": "2023-01-04T18:02:14.183Z",
+      "updated_at": "2023-01-04T20:50:52.368Z",
+      "productImages": [
+        {
+          "public_id": "eshop-productImages/qirz3pjnyrz7qcjdzlvz",
+          "url": "https://res.cloudinary.com/dngmkhxvz/image/upload/v1672855341/eshop-productImages/qirz3pjnyrz7qcjdzlvz.jpg",
+          "productId": "63b5bf261dcbb56b7fbfa5cc"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "63b5c165ccf1303ef4a32bd3",
+          "productId": "63b5bf261dcbb56b7fbfa5cc",
+          "username": "miles3",
+          "review": "review from miles3",
+          "rate": 5
+        },
+        {
+          "id": "63b5e26b6172c54b15258d8a",
+          "productId": "63b5bf261dcbb56b7fbfa5cc",
+          "username": "miles5",
+          "review": "review from miles5",
+          "rate": 5
+        },
+        {
+          "id": "63b5e6ab41bddf2a5978b30f",
+          "productId": "63b5bf261dcbb56b7fbfa5cc",
+          "username": "miles4",
+          "review": "review from miles4",
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "id": "63b5bf891dcbb56b7fbfa5ce",
+      "name": "Product 6",
+      "slug": "product-6",
+      "shortDescription": "this is the short description of product 6",
+      "longDescription": "this is the long description of product 6",
+      "price": 754.61,
+      "actualPrice": 758.6,
+      "discountPrice": 3.99,
+      "quantity": 9,
+      "category": "category6",
+      "rating": 2,
+      "ratings": 2.8,
+      "promoted": false,
+      "featured": false,
+      "creator_username": "miles2",
+      "created_at": "2023-01-04T18:03:53.718Z",
+      "updated_at": "2023-01-04T21:29:29.377Z",
+      "productImages": [
+        {
+          "public_id": "eshop-productImages/lzxp33z2bqmonz9nmxts",
+          "url": "https://res.cloudinary.com/dngmkhxvz/image/upload/v1672855436/eshop-productImages/lzxp33z2bqmonz9nmxts.jpg",
+          "productId": "63b5bf891dcbb56b7fbfa5ce"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "63b5c171ccf1303ef4a32bd4",
+          "productId": "63b5bf891dcbb56b7fbfa5ce",
+          "username": "miles3",
+          "review": "review from miles3",
+          "rate": 6
+        },
+        {
+          "id": "63b5e2796172c54b15258d8b",
+          "productId": "63b5bf891dcbb56b7fbfa5ce",
+          "username": "miles5",
+          "review": "review from miles5",
+          "rate": 3
+        },
+        {
+          "id": "63b5e6b441bddf2a5978b310",
+          "productId": "63b5bf891dcbb56b7fbfa5ce",
+          "username": "miles4",
+          "review": "review from miles4",
+          "rate": 1
+        },
+        {
+          "id": "63b5e92141bddf2a5978b312",
+          "productId": "63b5bf891dcbb56b7fbfa5ce",
+          "username": "miles4",
+          "review": " thank you miles 4",
+          "rate": 5
+        },
+        {
+          "id": "63b5efb85103b3bab12d7e16",
+          "productId": "63b5bf891dcbb56b7fbfa5ce",
+          "username": "miles2",
+          "review": " thank you miles 5",
+          "rate": 5
+        }
+      ]
+    }
+  ]
+}
